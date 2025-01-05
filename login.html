@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <link rel="stylesheet" href="login.css">
+</head>
+
+<body>
+    <form>
+        <div class="input">
+            <h1>LOGIN</h1><br><br>
+            <div class="userdata">
+                <input type="text" placeholder="Username"><br><br>
+                <input type="text" placeholder="Password">
+                <br><br>
+            </div>
+            <div class="remorfog">
+                <label><input type="checkbox"> i'm a human</label><br>
+                <a href="fogotpage" target="_blank" class="fog">Fogot your password </a><br><br>
+            </div class="btn">
+            <button type="submit" class="linbtn">Log</button>
+            <p>don't have an account.<a href="registerpage" target="_blank" class="reg">Register</a></p>
+    </form>
+    <div id="welcomeMessage" style="display: none;">
+        <h3>Welcome, <span id="userNameDisplay"></span>span>!</h3>
+    </div>
+    <script src="message.js"></script>
+</body>
+
+</html>
